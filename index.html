@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Responsivo - Aula Prática</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header com Navegação -->
+    <header class="header">
+        <nav class="nav-container">
+            <!-- Logo -->
+            <a href="#" class="logo">WebLab</a>
+            
+            <!-- Menu Principal -->
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item dropdown-parent">
+                    <a href="#" class="nav-link">Serviços</a>
+                    <ul class="dropdown">
+                        <li><a href="#" class="dropdown-link">Web Design</a></li>
+                        <li><a href="#" class="dropdown-link">Mobile Apps</a></li>
+                        <li><a href="#" class="dropdown-link">SEO</a></li>
+                        <li><a href="#" class="dropdown-link">Consultoria</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown-parent">
+                    <a href="#" class="nav-link">Produtos</a>
+                    <ul class="dropdown">
+                        <li><a href="#" class="dropdown-link">Templates</a></li>
+                        <li><a href="#" class="dropdown-link">Plugins</a></li>
+                        <li><a href="#" class="dropdown-link">Ferramentas</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Contato</a>
+                </li>
+            </ul>
+            
+            <!-- Botão Mobile -->
+            <button class="mobile-toggle" id="mobile-toggle">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <main class="main-content">
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Menu Responsivo Interativo</h1>
+                <p>Demonstração prática de menu adaptável com submenus e animações</p>
+                <div class="features">
+                    <div class="feature">
+                        <h3>📱 Responsivo</h3>
+                        <p>Adapta-se a diferentes tamanhos de tela</p>
+                    </div>
+                    <div class="feature">
+                        <h3>✨ Animações</h3>
+                        <p>Transições suaves e efeitos visuais</p>
+                    </div>
+                    <div class="feature">
+                        <h3>🎯 Interativo</h3>
+                        <p>Submenus suspensos funcionais</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="instructions">
+            <div class="container">
+                <h2>Objetivos da Aula Prática</h2>
+                <div class="objectives">
+                    <div class="objective">
+                        <h3>🎯 Objetivo 1</h3>
+                        <p><strong>Desenvolver habilidades na criação de menus responsivos</strong> que se adaptem a diferentes tamanhos de tela utilizando HTML, CSS e JavaScript</p>
+                    </div>
+                    <div class="objective">
+                        <h3>⚡ Objetivo 2</h3>
+                        <p><strong>Implementar funcionalidades interativas</strong>, como submenus suspensos e animações, para melhorar a usabilidade e a experiência do usuário</p>
+                    </div>
+                </div>
+
+                <div class="demo-instructions">
+                    <h3>Como testar:</h3>
+                    <ul>
+                        <li>Passe o mouse sobre "Serviços" e "Produtos" para ver os submenus</li>
+                        <li>Redimensione a janela para ver o comportamento responsivo</li>
+                        <li>Em telas pequenas, clique no botão hamburger (☰)</li>
+                        <li>Observe as animações e transições suaves</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
